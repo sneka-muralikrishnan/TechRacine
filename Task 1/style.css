@@ -1,0 +1,151 @@
+body{
+    background-color: #554444;
+}
+.top {
+            /* Width of the rectangle */
+    height: 100px;        /* Height of the rectangle */
+    background-color: #312828; /* Background color of the rectangle */
+    border: 2px solid #333; /* Border color and thickness */
+    margin: 20px;         /* Space around the rectangle */
+    padding: 10px;  
+    position: relative;      /* Space inside the rectangle */
+}
+.mid1 {
+    /* Width of the rectangle */
+height: 210px;        /* Height of the rectangle */
+background-color: #7D6969; /* Background color of the rectangle */
+border: 2px solid #333; /* Border color and thickness */
+margin: 20px;         /* Space around the rectangle */
+padding: 10px;  
+position: absolute;      /* Space inside the rectangle */
+top: 150px;
+right: 500px;
+left: 10px;
+}
+.mid2 {
+    /* Width of the rectangle */
+height: 180px;        /* Height of the rectangle */
+background-color: #322727; /* Background color of the rectangle */
+border: 2px solid #333; /* Border color and thickness */
+margin: 20px;         /* Space around the rectangle */
+padding: 10px;  
+position: absolute;      /* Space inside the rectangle */
+top: 400px;
+right: 500px;
+left:10px;
+}
+.top h1, .top h3 {
+    color: white; /* Text color */
+    margin: 0; /* Remove default margins */
+}
+.mid1 h4, .mid1 p {
+    color: white; /* Text color */
+    margin: 0; /* Remove default margins */
+}
+.mid1 a{
+    color:#322727;
+    margin: 0;
+}
+.mid2 h4, .mid2 a {
+    color: white; /* Text color */
+    margin: 0; /* Remove default margins */
+}
+.linkedin-icon {
+    position: absolute; /* Position the icon absolutely within the rectangle */
+    right: 50px; /* Distance from the right edge */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust for vertical centering */
+    color: white; /* Icon color */
+    text-decoration: none; /* Remove underline from link */
+    font-size: 24px; /* Size of the icon */
+}
+
+.linkedin-icon:hover {
+    color: #0077b5; /* LinkedIn blue color on hover */
+}
+
+.linkedin-icon i {
+    vertical-align: middle; /* Center icon vertically if needed */
+}
+.github-icon {
+    position: absolute; /* Position the icon absolutely within the rectangle */
+    right: 100px; /* Distance from the right edge */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust for vertical centering */
+    color: white; /* Icon color */
+    text-decoration: none; /* Remove underline from link */
+    font-size: 24px; /* Size of the icon */
+}
+
+.github-icon:hover {
+    color: #0077b5; /* LinkedIn blue color on hover */
+}
+
+.github-icon i {
+    vertical-align: middle; /* Center icon vertically if needed */
+}
+.education-link {
+    text-decoration: none; /* Removes the underline from the link */
+    color: whitesmoke; /* Keeps the link text color the same as the surrounding text */
+}
+
+/* Optional: Add a hover effect */
+.education-link:hover {
+    color: #0077b5; /* Change the color on hover if desired */
+}
+.right-image {
+    position: fixed; /* Keeps the image fixed on the right side even when scrolling */
+    top: 150px; /* Aligns the image to the top of the page */
+    right: 10px; /* Aligns the image to the right edge of the page */
+    width: 45%; /* Adjust this to cover the desired portion of the page */
+    height: 90%; /* Ensures the image covers the full height of the page */
+    background-image: url('images/img1.png'); /* Replace with your image URL */
+    background-size: cover; /* Ensures the image covers the entire div */
+    background-position: center; /* Centers the image within the div */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    z-index: -1; /* Places the image behind other content */
+}
+.skills-container {
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+}
+
+.skill {
+    flex: 1;
+}
+
+h5 {
+    font-size: 18px;
+    margin: 3px 0; /* Adjusted margin to reduce space */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 8px;
+}
+
+.mid1 h4 {
+    margin-bottom: 5px; /* Adjust this value to control space between "Skills" and subheadings */
+}
+
+.projects-list {
+    margin-top: 0px;
+}
+
+dt {
+    font-weight: bold;
+    margin-top: 3px; /* Adds space between each project title */
+}
+
+dd {
+    margin-left: 20px; /* Indents the project description */
+    margin-bottom: 10px; /* Adds space after each description */
+    font-size: 14px;
+    color: #9d7777; /* Adjust text color if needed */
+}
+
